@@ -286,7 +286,6 @@ img {
 }
 
 .benefits-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -484,10 +483,14 @@ img {
     padding-bottom: 100px;
 }
 
-.footer-container {}
+.footer-container {
+    display: flex;
+    align-items: beseline;
+}
 
-
-.footer-container-left {}
+.footer-container-left {
+    margin-right: 120px;
+}
 
 
 .footer-logo-web {
@@ -514,25 +517,51 @@ img {
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-    padding-top: 16px;
 }
 
 /* footer social media*/
 
 .footer-container-right {}
 
-.footer-sm-text {}
+.footer-sm-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
 
-.footer-sm-list {}
+.footer-sm-list {
+    display: flex;
+    gap: 16px;
+}
 
-.footer-sm-item {}
+.footer-sm-item {
+    width: 40px;
+    height: 40px;
+}
 
-.footer-sm-link {}
+.footer-sm-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-.footer-sm-icon {}
+.footer-sm-link:hover,
+.footer-sm-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-sm-icon {
+    fill: #f4f4fd;
+}
