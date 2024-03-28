@@ -485,7 +485,7 @@ img {
 
 .footer-container {
     display: flex;
-    align-items: beseline;
+    align-items: baseline;
 }
 
 .footer-container-left {
@@ -529,6 +529,7 @@ img {
 .footer-container-right {}
 
 .footer-sm-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
